@@ -1,0 +1,119 @@
+import { useContext, useState } from "react";
+import { useForm } from "react-hook-form";
+import { FaGoogle } from "react-icons/fa";
+import { toast } from "react-toastify";
+import { Navigate, useLocation, useNavigate } from "react-router-dom";
+import { Helmet } from "react-helmet";
+import { AuthContext } from "../../Provider/AuthProvider";
+
+const Login = () => {
+  const { register, handleSubmit, reset } = useForm();
+  const [error, setError] = useState(null);
+  const navigate = useNavigate();
+  const location = useLocation();
+
+  const { user, logInWithEmailAndPassword, googleLogin } =
+    useContext(AuthContext);
+
+  const onSubmit = (data) => {
+    setError("");
+    const { email, password } = data;
+    logInWithEmailAndPassword(email, password)
+      // eslint-disable-next-line no-unused-vars
+      .then((result) => {
+        toast.success("Log in successfully.........");
+        reset({
+          email: "",
+          password: "",
+        });
+        navigate(location.state ? location.state : "/");
+      })
+      .catch((error) => {
+        console.log(error);
+        setError("Password is Not matching");
+        toast.error("password is incorrect");
+      });
+  };
+
+  const handleGoogleLogIn = () => {
+    googleLogin()
+      // eslint-disable-next-line no-unused-vars
+      .then((result) => {
+        toast.success("Log in successfully.........");
+        navigate(location.state ? location.state : "/");
+      })
+      .catch((err) => {
+        console.log(err);
+      });
+  };
+
+  if (user) return <Navigate to={"/"} replace />;
+
+  return (
+    <>
+      <div className="flex w-full max-w-md mx-auto overflow-hidden bg-white rounded-lg shadow-lg  lg:max-w-7xl h-[520px] mt-[50px] lg:mt-[150px]">
+        <div
+          className="hidden bg-cover lg:block lg:w-1/2"
+          style={{ backgroundImage: "url('/login.jpg')" }}
+        ></div>
+
+        <div className="w-full px-6 py-8 md:px-8 lg:w-1/2">
+          <Helmet>
+            <title>Login</title>
+          </Helmet>
+          <h1 className="text-center text-[10px] md:text-[15px] lg:text-[20px] font-playfair text-slate-700 font-medium mb-[15px]">
+            Login To Buy Exciting Product
+          </h1>
+          <form onSubmit={handleSubmit(onSubmit)} className="space-y-[20px]">
+            <div>
+              <input
+                type="email"
+                placeholder="Your Email"
+                className="input input-bordered w-full"
+                {...register("email")}
+                required
+              />
+            </div>
+            <div>
+              <input
+                type="password"
+                placeholder="Type Your Password"
+                className="input input-bordered w-full"
+                required
+                {...register("password")}
+              />
+            </div>
+            {error ? <span className="text-red-700">{error}</span> : ""}
+            <div>
+              <input
+                type="submit"
+                value="Log in"
+                className="input input-bordered w-full bg-black text-white text-[22px] font-semibold font-playfair cursor-pointer"
+              />
+            </div>
+          </form>
+          <div className="space-x-5 text-center mt-2">
+            <span className="text-[16px] text-[#131313] font-inter">
+              Do not have an Account?
+            </span>
+            <span
+              onClick={() => navigate("/register")}
+              className="text-[18px] text-blue-600 font-semibold underline font-open-sans cursor-pointer"
+            >
+              Register
+            </span>
+          </div>
+          <div
+            onClick={handleGoogleLogIn}
+            className="mt-10 flex items-center bg-black text-white text-[18px] font-semibold font-playfair cursor-pointer space-x-4  lg:space-x-[100px] py-2 rounded-lg justify-start md:justify-center lg:justify-start"
+          >
+            <FaGoogle size={24} className="ml-[30px] lg:ml-[70px]" />
+            <button>Continue With Google</button>
+          </div>
+        </div>
+      </div>
+    </>
+  );
+};
+
+export default Login;
