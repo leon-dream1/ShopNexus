@@ -121,7 +121,7 @@
   },
   {
     "productName": "PRIMEBLUE SST TRACK PANTS",
-    "productImage": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/52b5fde5829a4a04820dacf50127b969_9366/Adicolor_Classics_Primeblue_SST_Track_Pants_Blue_H06714_21_model.jpg",
+    "productImage": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/9c7058d8677742ac8519ac3f009cdcf4_9366/Tiro_21_Track_Pants_Black_GH7305_21_model.jpg",
     "description": "Eco-friendly track pants made from recycled materials, offering both style and sustainability.",
     "price": 63,
     "category": "Men's Pants",
@@ -151,7 +151,7 @@
   },
   {
     "productName": "TIRO PANTS BLACK GOLD",
-    "productImage": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/c447324cf06544b78105ade500fd9e2f_9366/Tiro_Pants_Black_HI1073_21_model.jpg",
+    "productImage": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/9c7058d8677742ac8519ac3f009cdcf4_9366/Tiro_21_Track_Pants_Black_GH7305_21_model.jpg",
     "description": "Stylish black and gold pants combining elegance with functionality.",
     "price": 115,
     "category": "Men's Pants",
@@ -171,7 +171,7 @@
   },
   {
     "productName": "FRENCH TERRY TAPERED CUFF LOGO PANTS",
-    "productImage": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/d47f8bc94b2c401b9eafad23007fd8c4_9366/Primegreen_Essentials_Warm-Up_Open_Hem_3-Stripes_Track_Pants_Black_H48430_21_model.jpg",
+    "productImage": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/9c7058d8677742ac8519ac3f009cdcf4_9366/Tiro_21_Track_Pants_Black_GH7305_21_model.jpg",
     "description": "Comfortable French terry pants with a tapered cuff and logo detailing.",
     "price": 189,
     "category": "Men's Pants",
@@ -181,7 +181,7 @@
   },
   {
     "productName": "OPEN HEM 3-STRIPES TRACK PANTS",
-    "productImage": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/d47f8bc94b2c401b9eafad23007fd8c4_9366/Primegreen_Essentials_Warm-Up_Open_Hem_3-Stripes_Track_Pants_Black_H48430_21_model.jpg",
+    "productImage": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/9c7058d8677742ac8519ac3f009cdcf4_9366/Tiro_21_Track_Pants_Black_GH7305_21_model.jpg",
     "description": "Track pants with an open hem and classic 3-stripes for a sporty appearance.",
     "price": 58,
     "category": "Men's Pants",
@@ -191,7 +191,7 @@
   },
   {
     "productName": "ESSENTIALS4GAMEDAY PANTS",
-    "productImage": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/64f1ba254925439d88eaad920127d77e_9366/Essentials4Gameday_Pants_Black_HE1800_21_model.jpg",
+    "productImage": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/9c7058d8677742ac8519ac3f009cdcf4_9366/Tiro_21_Track_Pants_Black_GH7305_21_model.jpg",
     "description": "Comfortable pants designed for game day or casual wear with a relaxed fit.",
     "price": 185,
     "category": "Men's Pants",
@@ -207,17 +207,17 @@
     "category": "Men's Boot",
     "ratings": 3,
     "creationDateTime": "2024-08-15T15:00:00Z",
-    "brandName": "Addidas"
+    "brandName": "Adidas"
   },
   {
     "productName": "TERREX AX4 MID GORE-TEX HIKING SHOES",
-    "productImage": "https://assets/adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/dfa8c9a7d2864065b27fad7400b2e05e_9366/Terrex_AX4_Mid_GORE-TEX_Hiking_shoes_Black_FY9638_01_standard.jpg",
+    "productImage": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/12cf12ac1c8e484ea487ad6400ee3444_9366/Terrex_Free_Hiker_Gore-Tex_Hiking_Shoes_Black_GZ0355_01_standard.jpg",
     "description": "Mid-cut hiking shoes with GORE-TEX for waterproofing and excellent traction.",
     "price": 111,
     "category": "Men's Boot",
     "ratings": 4,
     "creationDateTime": "2024-08-15T15:30:00Z",
-    "brandName": "Addidas"
+    "brandName": "Nike"
   },
   {
     "productName": "RESPONSE 3MC ADV BOOTS",
@@ -227,7 +227,7 @@
     "category": "Men's Boot",
     "ratings": 5,
     "creationDateTime": "2024-08-15T16:00:00Z",
-    "brandName": "Addidas"
+    "brandName": "Fila"
   },
   {
     "productName": "TACTICAL LEXICON ADV BOOTS",
@@ -237,7 +237,7 @@
     "category": "Men's Boot",
     "ratings": 4,
     "creationDateTime": "2024-08-15T16:30:00Z",
-    "brandName": "Addidas"
+    "brandName": "Puma"
   },
   {
     "productName": "Superstar Boots",
@@ -247,7 +247,7 @@
     "category": "Men's Boot",
     "ratings": 3,
     "creationDateTime": "2024-08-15T17:00:00Z",
-    "brandName": "Addidas"
+    "brandName": "Reebok"
   },
   {
     "productName": "TACTICAL LEXICON ADV BOOTS",
@@ -257,17 +257,17 @@
     "category": "Men's Boot",
     "ratings": 4,
     "creationDateTime": "2024-08-15T17:30:00Z",
-    "brandName": "Addidas"
+    "brandName": "Adidas"
   },
   {
     "productName": "TERREX TRAILMAKER MID COLD.RDY HIKING SHOES",
-    "productImage": "https://assets/adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/c2ee4c27eba64258bcbaad5100e5d998_9366/Terrex_Trailmaker_Mid_COLD.RDY_Hiking_Shoes_Brown_FZ3370_01_standard.jpg",
+    "productImage": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/3a819de9f29c498fae13ab6d01473c4d_9366/Tactical_Lexicon_ADV_Boots_White_EG9385_01_standard.jpg",
     "description": "Cold-ready hiking shoes designed for rugged terrain and adverse weather conditions.",
     "price": 110,
     "category": "Men's Boot",
     "ratings": 3,
     "creationDateTime": "2024-08-15T18:00:00Z",
-    "brandName": "Addidas"
+    "brandName": "Adidas"
   },
   {
     "productName": "TERREX FREE HIKER GORE-TEX HIKING SHOES",
@@ -277,17 +277,17 @@
     "category": "Men's Boot",
     "ratings": 5,
     "creationDateTime": "2024-08-15T18:30:00Z",
-    "brandName": "Addidas"
+    "brandName": "Fila"
   },
   {
     "productName": "TERREX AGRAVIC TECH PRO TRAIL RUNNING SHOES",
-    "productImage": "https://assets/adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/0a340319370844e99645abc90091df96_9366/Terrex_Agravic_Tech_Pro_Trail_Running_Shoes_Black_FU7634_01_standard.jpg",
+    "productImage": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/efbedb26b92e4affa103ad6b008a789a_9366/Terrex_Free_Hiker_Gore-Tex_Hiking_Shoes_Grey_GZ0356_01_standard.jpg",
     "description": "Trail running shoes with advanced technology for durability and comfort on rugged trails.",
     "price": 118,
     "category": "Men's Boot",
     "ratings": 3,
     "creationDateTime": "2024-08-15T19:00:00Z",
-    "brandName": "Addidas"
+    "brandName": "Puma"
   },
   {
     "productName": "TERREX FREE HIKER COLD.RDY HIKING BOOTS",
@@ -297,7 +297,7 @@
     "category": "Men's Boot",
     "ratings": 5,
     "creationDateTime": "2024-08-15T19:30:00Z",
-    "brandName": "Addidas"
+    "brandName": "Reebok"
   },
   {
     "productName": "3-Stripes Backpack 2.0",
@@ -307,7 +307,7 @@
     "category": "Bag",
     "ratings": 5,
     "creationDateTime": "2024-08-15T15:00:00Z",
-    "brandName": "Addidas"
+    "brandName": "Nike"
   },
   {
     "productName": "Trefoil Backpack",
@@ -317,7 +317,7 @@
     "category": "Bag",
     "ratings": 4,
     "creationDateTime": "2024-08-15T15:30:00Z",
-    "brandName": "Addidas"
+    "brandName": "Fila"
   },
   {
     "productName": "Santiago Lunch Bag",
@@ -327,7 +327,7 @@
     "category": "Bag",
     "ratings": 3,
     "creationDateTime": "2024-08-15T16:00:00Z",
-    "brandName": "Addidas"
+    "brandName": "Nike"
   },
   {
     "productName": "Blue Version Backpack",
@@ -337,7 +337,7 @@
     "category": "Bag",
     "ratings": 5,
     "creationDateTime": "2024-08-15T16:30:00Z",
-    "brandName": "Addidas"
+    "brandName": "Reebok"
   },
   {
     "productName": "Defender Backpack",
@@ -347,7 +347,7 @@
     "category": "Bag",
     "ratings": 4,
     "creationDateTime": "2024-08-15T17:00:00Z",
-    "brandName": "Addidas"
+    "brandName": "Fila"
   },
   {
     "productName": "Excel Backpack",
@@ -357,7 +357,7 @@
     "category": "Bag",
     "ratings": 5,
     "creationDateTime": "2024-08-15T17:30:00Z",
-    "brandName": "Addidas"
+    "brandName": "Adidas"
   },
   {
     "productName": "Alliance Sackpack",
@@ -367,7 +367,7 @@
     "category": "Bag",
     "ratings": 3,
     "creationDateTime": "2024-08-15T18:00:00Z",
-    "brandName": "Addidas"
+    "brandName": "Puma"
   },
   {
     "productName": "R.Y.V. Toploader Backpack",
@@ -377,7 +377,7 @@
     "category": "Bag",
     "ratings": 3,
     "creationDateTime": "2024-08-15T18:30:00Z",
-    "brandName": "Addidas"
+    "brandName": "Reebok"
   },
   {
     "productName": "Adicolor Archive Backpack",
@@ -387,7 +387,7 @@
     "category": "Bag",
     "ratings": 4,
     "creationDateTime": "2024-08-15T19:00:00Z",
-    "brandName": "Addidas"
+    "brandName": "Fila"
   },
   {
     "productName": "R.Y.V. Backpack",
@@ -397,7 +397,7 @@
     "category": "Bag",
     "ratings": 5,
     "creationDateTime": "2024-08-15T19:30:00Z",
-    "brandName": "Addidas"
+    "brandName": "Nike"
   },
   {
     "productName": "Relaxed Strap-Back Hat",
@@ -407,7 +407,7 @@
     "category": "Cap",
     "ratings": 4,
     "creationDateTime": "2024-08-15T15:00:00Z",
-    "brandName": "Addidas"
+    "brandName": "Adidas"
   },
   {
     "productName": "Icon Snapback Hat",
@@ -417,7 +417,7 @@
     "category": "Cap",
     "ratings": 4,
     "creationDateTime": "2024-08-15T15:30:00Z",
-    "brandName": "Addidas"
+    "brandName": "Reebok"
   },
   {
     "productName": "Superlite Hat",
@@ -427,7 +427,7 @@
     "category": "Cap",
     "ratings": 3,
     "creationDateTime": "2024-08-15T16:00:00Z",
-    "brandName": "Addidas"
+    "brandName": "Puma"
   },
   {
     "productName": "Superlite Hat",
@@ -437,7 +437,7 @@
     "category": "Cap",
     "ratings": 5,
     "creationDateTime": "2024-08-15T16:30:00Z",
-    "brandName": "Addidas"
+    "brandName": "Fila"
   },
   {
     "productName": "Tee Time 5-Panel Hat",
@@ -447,7 +447,7 @@
     "category": "Cap",
     "ratings": 4,
     "creationDateTime": "2024-08-15T17:00:00Z",
-    "brandName": "Addidas"
+    "brandName": "Nike"
   },
   {
     "productName": "Baseball Cap",
@@ -457,7 +457,7 @@
     "category": "Cap",
     "ratings": 5,
     "creationDateTime": "2024-08-15T17:30:00Z",
-    "brandName": "Addidas"
+    "brandName": "Adidas"
   },
   {
     "productName": "Relaxed Strap-Back Hat",
@@ -467,7 +467,7 @@
     "category": "Cap",
     "ratings": 5,
     "creationDateTime": "2024-08-15T18:00:00Z",
-    "brandName": "Addidas"
+    "brandName": "Puma"
   },
   {
     "productName": "UNISEX ORIGINALS WASHED BUCKET",
@@ -477,7 +477,7 @@
     "category": "Cap",
     "ratings": 4,
     "creationDateTime": "2024-08-15T18:30:00Z",
-    "brandName": "Addidas"
+    "brandName": "Fila"
   },
   {
     "productName": "SST Plus Strap-Back Hat",
@@ -487,7 +487,7 @@
     "category": "Cap",
     "ratings": 4,
     "creationDateTime": "2024-08-15T19:00:00Z",
-    "brandName": "Addidas"
+    "brandName": "Reebok"
   },
   {
     "productName": "Dispatch Trucker Hat",
@@ -497,6 +497,6 @@
     "category": "Cap",
     "ratings": 4,
     "creationDateTime": "2024-08-15T19:30:00Z",
-    "brandName": "Addidas"
+    "brandName": "Nike"
   }
 ]
