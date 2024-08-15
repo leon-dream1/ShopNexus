@@ -1,0 +1,502 @@
+[
+  {
+    "productName": "ULTRABOOST 22 SHOES",
+    "productImage": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fbaf991a78bc4896a3e9ad7800abcec6_9366/Ultraboost_22_Shoes_Black_GZ0127_01_standard.jpg",
+    "description": "High-performance running shoes designed for comfort and durability with responsive Boost cushioning.",
+    "price": 420,
+    "category": "Men's Sneaker",
+    "ratings": 4,
+    "creationDateTime": "2024-08-15T10:00:00Z",
+    "brandName": "Adidas"
+  },
+  {
+    "productName": "LUNAR NEW YEAR ULTRABOOST DNA SHOES",
+    "productImage": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/2cee64414e1f4f31baf1ae270099d950_9366/Lunar_New_Year_Ultraboost_DNA_Shoes_Black_GZ6074_01_standard.jpg",
+    "description": "Celebrate the Lunar New Year with these special edition Ultraboost DNA shoes featuring a unique design.",
+    "price": 196,
+    "category": "Men's Sneaker",
+    "ratings": 5,
+    "creationDateTime": "2024-08-14T14:00:00Z",
+    "brandName": "Nike"
+  },
+  {
+    "productName": "SUPERNOVA SHOES",
+    "productImage": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/69cbc73d0cb846889f89acbb011e68cb_9366/Supernova_Shoes_Black_S42722_01_standard.jpg",
+    "description": "Versatile running shoes with a breathable mesh upper and supportive cushioning for everyday wear.",
+    "price": 245,
+    "category": "Men's Sneaker",
+    "ratings": 4,
+    "creationDateTime": "2024-08-13T09:30:00Z",
+    "brandName": "Reebok"
+  },
+  {
+    "productName": "LITE RACER ADAPT 3.0 SHOES",
+    "productImage": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/96a5f085fedf4e678095abad01056711_9366/Lite_Racer_Adapt_3.0_Shoes_Black_FX8802_01_standard.jpg",
+    "description": "Sleek and lightweight shoes with a snug fit, perfect for casual wear and light activities.",
+    "price": 229,
+    "category": "Men's Sneaker",
+    "ratings": 5,
+    "creationDateTime": "2024-08-12T12:15:00Z",
+    "brandName": "Puma"
+  },
+  {
+    "productName": "4DFWD SHOES",
+    "productImage": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/8c5d1994dfd343e28567ad4400dd351d_9366/4DFWD_Shoes_Black_Q46447_01_standard.jpg",
+    "description": "Cutting-edge sneakers with 3D-printed midsoles for a responsive and customized fit.",
+    "price": 287,
+    "category": "Men's Sneaker",
+    "ratings": 4,
+    "creationDateTime": "2024-08-11T11:45:00Z",
+    "brandName": "Reebok"
+  },
+  {
+    "productName": "KAPTIR 2.0 SHOES",
+    "productImage": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/0846e90b15144861b33dacf500e3cfd1_9366/Kaptir_2.0_Shoes_White_H00276_01_standard.jpg",
+    "description": "Sporty sneakers with a modern design, perfect for active lifestyles and daily wear.",
+    "price": 138,
+    "category": "Men's Sneaker",
+    "ratings": 3,
+    "creationDateTime": "2024-08-10T16:20:00Z",
+    "brandName": "Puma"
+  },
+  {
+    "productName": "4DFWD PULSE SHOES",
+    "productImage": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/9a8256bb7ca34da49ff8ad5600bb2812_9366/4DFWD_Pulse_Shoes_White_Q46221_01_standard.jpg",
+    "description": "High-tech sneakers with a responsive design for optimal comfort and performance.",
+    "price": 226,
+    "category": "Men's Sneaker",
+    "ratings": 4,
+    "creationDateTime": "2024-08-09T08:50:00Z",
+    "brandName": "Nike"
+  },
+  {
+    "productName": "ZX 1K BOOST SHOES",
+    "productImage": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/0e540bae86d5456aa034ada300ebf46c_9366/ZX_1K_Boost_Shoes_Grey_H00430_01_standard.jpg",
+    "description": "Retro-inspired sneakers with modern Boost technology for superior comfort.",
+    "price": 319,
+    "category": "Men's Sneaker",
+    "ratings": 4,
+    "creationDateTime": "2024-08-08T15:40:00Z",
+    "brandName": "Fila"
+  },
+  {
+    "productName": "NMD_R1 V2 SHOES",
+    "productImage": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/c2a18c4e3f104d52a697ad6a01477bb7_9366/NMD_R1_V2_Shoes_Black_GX6367_01_standard.jpg",
+    "description": "A modern take on the classic NMD_R1 with updated materials and design.",
+    "price": 260,
+    "category": "Men's Sneaker",
+    "ratings": 5,
+    "creationDateTime": "2024-08-07T13:25:00Z",
+    "brandName": "Fila"
+  },
+  {
+    "productName": "NMD_R1 PRIMEBLUE SHOES",
+    "productImage": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/0e03e7a2a9cb44dfac2bad6a00f95888_9366/NMD_R1_Primeblue_Shoes_White_GZ9261_01_standard.jpg",
+    "description": "Eco-friendly sneakers made with Primeblue, a high-performance recycled material.",
+    "price": 437,
+    "category": "Men's Sneaker",
+    "ratings": 4,
+    "creationDateTime": "2024-08-06T18:10:00Z",
+    "brandName": "Adidas"
+  },
+  {
+    "productName": "TIRO TRACK PANTS",
+    "productImage": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/9c7058d8677742ac8519ac3f009cdcf4_9366/Tiro_21_Track_Pants_Black_GH7305_21_model.jpg",
+    "description": "Comfortable and stylish track pants for casual wear or light workouts.",
+    "price": 146,
+    "category": "Men's Pants",
+    "ratings": 5,
+    "creationDateTime": "2024-08-15T10:00:00Z",
+    "brandName": "Adidas"
+  },
+  {
+    "productName": "TIRO 21 TRACK PANTS",
+    "productImage": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/9c7058d8677742ac8519ac3f009cdcf4_9366/Tiro_21_Track_Pants_Black_GH7305_21_model.jpg",
+    "description": "Classic track pants with a sleek design and comfortable fit.",
+    "price": 109,
+    "category": "Men's Pants",
+    "ratings": 5,
+    "creationDateTime": "2024-08-15T10:30:00Z",
+    "brandName": "Nike"
+  },
+  {
+    "productName": "PRIMEBLUE SST TRACK PANTS",
+    "productImage": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/52b5fde5829a4a04820dacf50127b969_9366/Adicolor_Classics_Primeblue_SST_Track_Pants_Blue_H06714_21_model.jpg",
+    "description": "Eco-friendly track pants made from recycled materials, offering both style and sustainability.",
+    "price": 63,
+    "category": "Men's Pants",
+    "ratings": 4,
+    "creationDateTime": "2024-08-15T11:00:00Z",
+    "brandName": "Puma"
+  },
+  {
+    "productName": "TIRO 21 TRACK PANTS",
+    "productImage": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/9c7058d8677742ac8519ac3f009cdcf4_9366/Tiro_21_Track_Pants_Black_GH7305_21_model.jpg",
+    "description": "High-performance track pants designed for comfort and durability during workouts.",
+    "price": 148,
+    "category": "Men's Pants",
+    "ratings": 3,
+    "creationDateTime": "2024-08-15T11:30:00Z",
+    "brandName": "Fila"
+  },
+  {
+    "productName": "TIRO TRACK PANTS RED",
+    "productImage": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/9c7058d8677742ac8519ac3f009cdcf4_9366/Tiro_21_Track_Pants_Black_GH7305_21_model.jpg",
+    "description": "Bold red track pants with a modern design for a standout look.",
+    "price": 122,
+    "category": "Men's Pants",
+    "ratings": 4,
+    "creationDateTime": "2024-08-15T12:00:00Z",
+    "brandName": "Reebok"
+  },
+  {
+    "productName": "TIRO PANTS BLACK GOLD",
+    "productImage": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/c447324cf06544b78105ade500fd9e2f_9366/Tiro_Pants_Black_HI1073_21_model.jpg",
+    "description": "Stylish black and gold pants combining elegance with functionality.",
+    "price": 115,
+    "category": "Men's Pants",
+    "ratings": 5,
+    "creationDateTime": "2024-08-15T12:30:00Z",
+    "brandName": "Nike"
+  },
+  {
+    "productName": "TAPERED-CUFF 3-STRIPES PANTS",
+    "productImage": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/9c7058d8677742ac8519ac3f009cdcf4_9366/Tiro_21_Track_Pants_Black_GH7305_21_model.jpg",
+    "description": "Track pants with a tapered fit and iconic 3-stripes design for a trendy look.",
+    "price": 108,
+    "category": "Men's Pants",
+    "ratings": 3,
+    "creationDateTime": "2024-08-15T13:00:00Z",
+    "brandName": "Puma"
+  },
+  {
+    "productName": "FRENCH TERRY TAPERED CUFF LOGO PANTS",
+    "productImage": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/d47f8bc94b2c401b9eafad23007fd8c4_9366/Primegreen_Essentials_Warm-Up_Open_Hem_3-Stripes_Track_Pants_Black_H48430_21_model.jpg",
+    "description": "Comfortable French terry pants with a tapered cuff and logo detailing.",
+    "price": 189,
+    "category": "Men's Pants",
+    "ratings": 3,
+    "creationDateTime": "2024-08-15T13:30:00Z",
+    "brandName": "Fila"
+  },
+  {
+    "productName": "OPEN HEM 3-STRIPES TRACK PANTS",
+    "productImage": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/d47f8bc94b2c401b9eafad23007fd8c4_9366/Primegreen_Essentials_Warm-Up_Open_Hem_3-Stripes_Track_Pants_Black_H48430_21_model.jpg",
+    "description": "Track pants with an open hem and classic 3-stripes for a sporty appearance.",
+    "price": 58,
+    "category": "Men's Pants",
+    "ratings": 5,
+    "creationDateTime": "2024-08-15T14:00:00Z",
+    "brandName": "Reebok"
+  },
+  {
+    "productName": "ESSENTIALS4GAMEDAY PANTS",
+    "productImage": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/64f1ba254925439d88eaad920127d77e_9366/Essentials4Gameday_Pants_Black_HE1800_21_model.jpg",
+    "description": "Comfortable pants designed for game day or casual wear with a relaxed fit.",
+    "price": 185,
+    "category": "Men's Pants",
+    "ratings": 5,
+    "creationDateTime": "2024-08-15T14:30:00Z",
+    "brandName": "Nike"
+  },
+  {
+    "productName": "TERREX FREE HIKER GORE-TEX HIKING SHOES",
+    "productImage": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/12cf12ac1c8e484ea487ad6400ee3444_9366/Terrex_Free_Hiker_Gore-Tex_Hiking_Shoes_Black_GZ0355_01_standard.jpg",
+    "description": "Durable hiking shoes featuring GORE-TEX for waterproof protection and a comfortable fit.",
+    "price": 132,
+    "category": "Men's Boot",
+    "ratings": 3,
+    "creationDateTime": "2024-08-15T15:00:00Z",
+    "brandName": "Addidas"
+  },
+  {
+    "productName": "TERREX AX4 MID GORE-TEX HIKING SHOES",
+    "productImage": "https://assets/adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/dfa8c9a7d2864065b27fad7400b2e05e_9366/Terrex_AX4_Mid_GORE-TEX_Hiking_shoes_Black_FY9638_01_standard.jpg",
+    "description": "Mid-cut hiking shoes with GORE-TEX for waterproofing and excellent traction.",
+    "price": 111,
+    "category": "Men's Boot",
+    "ratings": 4,
+    "creationDateTime": "2024-08-15T15:30:00Z",
+    "brandName": "Addidas"
+  },
+  {
+    "productName": "RESPONSE 3MC ADV BOOTS",
+    "productImage": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/b513f2cec8b440978d60ab6d014ad452_9366/Response_3MC_ADV_Boots_Black_EG9391_01_standard.jpg",
+    "description": "Stylish and functional boots offering great support and comfort for everyday use.",
+    "price": 104,
+    "category": "Men's Boot",
+    "ratings": 5,
+    "creationDateTime": "2024-08-15T16:00:00Z",
+    "brandName": "Addidas"
+  },
+  {
+    "productName": "TACTICAL LEXICON ADV BOOTS",
+    "productImage": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/f5350f3d583c46038534ab6d01445e2a_9366/Tactical_Lexicon_ADV_Boots_Grey_EG9386_01_standard.jpg",
+    "description": "Advanced tactical boots designed for durability and high performance in challenging conditions.",
+    "price": 151,
+    "category": "Men's Boot",
+    "ratings": 4,
+    "creationDateTime": "2024-08-15T16:30:00Z",
+    "brandName": "Addidas"
+  },
+  {
+    "productName": "Superstar Boots",
+    "productImage": "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/6853ac5565a9407bae19ac080120d9d7_9366/Superstar_Boots_Red_FZ2642_01_standard.jpg",
+    "description": "Iconic Superstar boots with a classic design and durable construction.",
+    "price": 151,
+    "category": "Men's Boot",
+    "ratings": 3,
+    "creationDateTime": "2024-08-15T17:00:00Z",
+    "brandName": "Addidas"
+  },
+  {
+    "productName": "TACTICAL LEXICON ADV BOOTS",
+    "productImage": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/3a819de9f29c498fae13ab6d01473c4d_9366/Tactical_Lexicon_ADV_Boots_White_EG9385_01_standard.jpg",
+    "description": "High-performance tactical boots with advanced features for exceptional comfort and support.",
+    "price": 199,
+    "category": "Men's Boot",
+    "ratings": 4,
+    "creationDateTime": "2024-08-15T17:30:00Z",
+    "brandName": "Addidas"
+  },
+  {
+    "productName": "TERREX TRAILMAKER MID COLD.RDY HIKING SHOES",
+    "productImage": "https://assets/adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/c2ee4c27eba64258bcbaad5100e5d998_9366/Terrex_Trailmaker_Mid_COLD.RDY_Hiking_Shoes_Brown_FZ3370_01_standard.jpg",
+    "description": "Cold-ready hiking shoes designed for rugged terrain and adverse weather conditions.",
+    "price": 110,
+    "category": "Men's Boot",
+    "ratings": 3,
+    "creationDateTime": "2024-08-15T18:00:00Z",
+    "brandName": "Addidas"
+  },
+  {
+    "productName": "TERREX FREE HIKER GORE-TEX HIKING SHOES",
+    "productImage": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/efbedb26b92e4affa103ad6b008a789a_9366/Terrex_Free_Hiker_Gore-Tex_Hiking_Shoes_Grey_GZ0356_01_standard.jpg",
+    "description": "Enhanced GORE-TEX hiking shoes for extreme comfort and performance on tough trails.",
+    "price": 155,
+    "category": "Men's Boot",
+    "ratings": 5,
+    "creationDateTime": "2024-08-15T18:30:00Z",
+    "brandName": "Addidas"
+  },
+  {
+    "productName": "TERREX AGRAVIC TECH PRO TRAIL RUNNING SHOES",
+    "productImage": "https://assets/adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/0a340319370844e99645abc90091df96_9366/Terrex_Agravic_Tech_Pro_Trail_Running_Shoes_Black_FU7634_01_standard.jpg",
+    "description": "Trail running shoes with advanced technology for durability and comfort on rugged trails.",
+    "price": 118,
+    "category": "Men's Boot",
+    "ratings": 3,
+    "creationDateTime": "2024-08-15T19:00:00Z",
+    "brandName": "Addidas"
+  },
+  {
+    "productName": "TERREX FREE HIKER COLD.RDY HIKING BOOTS",
+    "productImage": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/2ded0bee28b249bbb19cad5000818b77_9366/Terrex_Free_Hiker_COLD.RDY_Hiking_Boots_Black_FZ3364_01_standard.jpg",
+    "description": "Cold-ready hiking boots designed for superior warmth and protection in extreme weather.",
+    "price": 169,
+    "category": "Men's Boot",
+    "ratings": 5,
+    "creationDateTime": "2024-08-15T19:30:00Z",
+    "brandName": "Addidas"
+  },
+  {
+    "productName": "3-Stripes Backpack 2.0",
+    "productImage": "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/ba79ccb861fd4fd49e3aac9f006a6407_9366/3-Stripes_Backpack_2.0_Grey_EX6735_01_standard.jpg",
+    "description": "A sleek and functional backpack with the iconic 3-Stripes design for everyday use.",
+    "price": 74,
+    "category": "Bag",
+    "ratings": 5,
+    "creationDateTime": "2024-08-15T15:00:00Z",
+    "brandName": "Addidas"
+  },
+  {
+    "productName": "Trefoil Backpack",
+    "productImage": "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/a520df1b51384c00af9caca100489f04_9366/Trefoil_Backpack_Black_EX6752_01_standard.jpg",
+    "description": "Classic backpack featuring the iconic Trefoil logo, ideal for everyday carry.",
+    "price": 65,
+    "category": "Bag",
+    "ratings": 4,
+    "creationDateTime": "2024-08-15T15:30:00Z",
+    "brandName": "Addidas"
+  },
+  {
+    "productName": "Santiago Lunch Bag",
+    "productImage": "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/c2aaf5e8a7924f1d9277ac9f005b5f37_9366/Santiago_Lunch_Bag_Black_EX6532_01_standard.jpg",
+    "description": "Compact and practical lunch bag with ample space for your meals and snacks.",
+    "price": 63,
+    "category": "Bag",
+    "ratings": 3,
+    "creationDateTime": "2024-08-15T16:00:00Z",
+    "brandName": "Addidas"
+  },
+  {
+    "productName": "Blue Version Backpack",
+    "productImage": "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/a9e0c5635057425daab5ad0b0089194b_9366/Blue_Version_Backpack_Black_H22735_01_standard.jpg",
+    "description": "Stylish backpack in a striking blue design, perfect for both casual and sports activities.",
+    "price": 87,
+    "category": "Bag",
+    "ratings": 5,
+    "creationDateTime": "2024-08-15T16:30:00Z",
+    "brandName": "Addidas"
+  },
+  {
+    "productName": "Defender Backpack",
+    "productImage": "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/d6ee0177281f42f0a254acb1016aa051_9366/Defender_Backpack_Red_EX7011_01_standard.jpg",
+    "description": "Durable and spacious backpack with a bold red design, suitable for various uses.",
+    "price": 96,
+    "category": "Bag",
+    "ratings": 4,
+    "creationDateTime": "2024-08-15T17:00:00Z",
+    "brandName": "Addidas"
+  },
+  {
+    "productName": "Excel Backpack",
+    "productImage": "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/ac09bb56249b43158485aca1007cc1ef_9366/Excel_Backpack_Black_EX6933_01_standard.jpg",
+    "description": "Versatile backpack with plenty of room and a sleek design, perfect for everyday activities.",
+    "price": 62,
+    "category": "Bag",
+    "ratings": 5,
+    "creationDateTime": "2024-08-15T17:30:00Z",
+    "brandName": "Addidas"
+  },
+  {
+    "productName": "Alliance Sackpack",
+    "productImage": "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/2e8a6f09838d49c3b00fad4f0017f753_9366/Alliance_Sackpack_White_FZ6823_01_standard.jpg",
+    "description": "Convenient sackpack for carrying essentials with a clean, minimalist design.",
+    "price": 99,
+    "category": "Bag",
+    "ratings": 3,
+    "creationDateTime": "2024-08-15T18:00:00Z",
+    "brandName": "Addidas"
+  },
+  {
+    "productName": "R.Y.V. Toploader Backpack",
+    "productImage": "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/1c87c940836e4628852bad130101e5c6_9366/R.Y.V._Toploader_Backpack_Black_H32458_01_standard.jpg",
+    "description": "Toploader backpack with a sleek design and ample storage for all your needs.",
+    "price": 56,
+    "category": "Bag",
+    "ratings": 3,
+    "creationDateTime": "2024-08-15T18:30:00Z",
+    "brandName": "Addidas"
+  },
+  {
+    "productName": "Adicolor Archive Backpack",
+    "productImage": "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/0bb325f9cc174ea4bed7ad9e0101b682_9366/Adicolor_Archive_Backpack_Green_HE9804_01_standard.jpg",
+    "description": "Retro-inspired backpack with a classic design, ideal for both style and functionality.",
+    "price": 84,
+    "category": "Bag",
+    "ratings": 4,
+    "creationDateTime": "2024-08-15T19:00:00Z",
+    "brandName": "Addidas"
+  },
+  {
+    "productName": "R.Y.V. Backpack",
+    "productImage": "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/dc7dca21df62473ea518ade101251809_9366/R.Y.V._Backpack_Black_HD9650_01_standard.jpg",
+    "description": "Stylish and functional R.Y.V. backpack for daily use with a modern design.",
+    "price": 67,
+    "category": "Bag",
+    "ratings": 5,
+    "creationDateTime": "2024-08-15T19:30:00Z",
+    "brandName": "Addidas"
+  },
+  {
+    "productName": "Relaxed Strap-Back Hat",
+    "productImage": "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/4feb20f4d990407cb4f1a88a0040b212_9366/Relaxed_Strap-Back_Hat_Black_BH7137_01_standard.jpg",
+    "description": "A relaxed strap-back hat with a casual design, perfect for everyday wear.",
+    "price": 30,
+    "category": "Cap",
+    "ratings": 4,
+    "creationDateTime": "2024-08-15T15:00:00Z",
+    "brandName": "Addidas"
+  },
+  {
+    "productName": "Icon Snapback Hat",
+    "productImage": "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/1e27ae8bbfb647489261ac8e015d181f_9366/Icon_Snapback_Hat_Grey_EX6798_01_standard.jpg",
+    "description": "Classic snapback hat with an iconic design for a stylish look.",
+    "price": 21,
+    "category": "Cap",
+    "ratings": 4,
+    "creationDateTime": "2024-08-15T15:30:00Z",
+    "brandName": "Addidas"
+  },
+  {
+    "productName": "Superlite Hat",
+    "productImage": "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/0ae141db6fce44999337ac8e015954ea_9366/Superlite_Hat_Grey_EX7054_01_standard.jpg",
+    "description": "Lightweight and comfortable hat designed for active lifestyles.",
+    "price": 11,
+    "category": "Cap",
+    "ratings": 3,
+    "creationDateTime": "2024-08-15T16:00:00Z",
+    "brandName": "Addidas"
+  },
+  {
+    "productName": "Superlite Hat",
+    "productImage": "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/272d5d9cb7b74415a6c9ac8e015a4ccc_9366/Superlite_Hat_Black_EX7048_01_standard.jpg",
+    "description": "Comfortable and lightweight hat with a sleek black design.",
+    "price": 10,
+    "category": "Cap",
+    "ratings": 5,
+    "creationDateTime": "2024-08-15T16:30:00Z",
+    "brandName": "Addidas"
+  },
+  {
+    "productName": "Tee Time 5-Panel Hat",
+    "productImage": "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/df67ab60b5574c368b76adf9010f2d2d_9366/Tee_Time_5-Panel_Hat_Black_HA9254_01_standard.jpg",
+    "description": "Trendy 5-panel hat designed for a modern look on the golf course.",
+    "price": 24,
+    "category": "Cap",
+    "ratings": 4,
+    "creationDateTime": "2024-08-15T17:00:00Z",
+    "brandName": "Addidas"
+  },
+  {
+    "productName": "Baseball Cap",
+    "productImage": "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/0ce5f49aa0914deabf16adc600d09e60_9366/Baseball_Cap_Black_HD7039_01_standard.jpg",
+    "description": "Classic baseball cap with a versatile design, ideal for casual wear.",
+    "price": 17,
+    "category": "Cap",
+    "ratings": 5,
+    "creationDateTime": "2024-08-15T17:30:00Z",
+    "brandName": "Addidas"
+  },
+  {
+    "productName": "Relaxed Strap-Back Hat",
+    "productImage": "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/aaa5ae549c624178bc25a740012dd61f_9366/Relaxed_Strap-Back_Hat_White_BH7135_01_standard.jpg",
+    "description": "Comfortable strap-back hat in white for a clean and casual look.",
+    "price": 24,
+    "category": "Cap",
+    "ratings": 5,
+    "creationDateTime": "2024-08-15T18:00:00Z",
+    "brandName": "Addidas"
+  },
+  {
+    "productName": "UNISEX ORIGINALS WASHED BUCKET",
+    "productImage": "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/e1e758585df14bbbb7d8aaf000c95bd7_9366/UNISEX_ORIGINALS_WASHED_BUCKET_White_CM3933_01_standard.jpg",
+    "description": "Stylish bucket hat with a washed look for a relaxed, vintage style.",
+    "price": 27,
+    "category": "Cap",
+    "ratings": 4,
+    "creationDateTime": "2024-08-15T18:30:00Z",
+    "brandName": "Addidas"
+  },
+  {
+    "productName": "SST Plus Strap-Back Hat",
+    "productImage": "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/92e77a8d84d845d19171ad50003f2ea1_9366/SST_Plus_Strap-Back_Hat_White_FZ8569_01_standard.jpg",
+    "description": "Sleek strap-back hat with a minimalist design for a contemporary look.",
+    "price": 23,
+    "category": "Cap",
+    "ratings": 4,
+    "creationDateTime": "2024-08-15T19:00:00Z",
+    "brandName": "Addidas"
+  },
+  {
+    "productName": "Dispatch Trucker Hat",
+    "productImage": "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/c3981523051c4a978674ad3c01015664_9366/Dispatch_Trucker_Hat_Black_EY5534_01_standard.jpg",
+    "description": "Trucker hat with a stylish design and breathable mesh panels.",
+    "price": 28,
+    "category": "Cap",
+    "ratings": 4,
+    "creationDateTime": "2024-08-15T19:30:00Z",
+    "brandName": "Addidas"
+  }
+]

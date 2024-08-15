@@ -6,12 +6,12 @@ import { getAuth } from "firebase/auth";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyBnz7AQPrYteJaG7aDI7Y9K3rMtTwFdqqo",
-  authDomain: "shopnexus-3946f.firebaseapp.com",
-  projectId: "shopnexus-3946f",
-  storageBucket: "shopnexus-3946f.appspot.com",
-  messagingSenderId: "737283022885",
-  appId: "1:737283022885:web:5c0b46e69a16b50934dfcc"
+  apiKey: import.meta.env.VITE_API_KEY,
+  authDomain: import.meta.env.VITE_AUTH_DOMAIN,
+  projectId: import.meta.env.VITE_PROJECT_ID,
+  storageBucket: import.meta.env.VITE_STORAGE_BUCKET,
+  messagingSenderId: import.meta.env.VITE_MESSAGING_SENDER_ID,
+  appId: import.meta.env.VITE_APPID,
 };
 
 // Initialize Firebase
