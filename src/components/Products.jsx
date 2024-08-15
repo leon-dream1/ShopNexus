@@ -3,28 +3,62 @@ import { useForm } from "react-hook-form";
 import SingleProduct from "./SingleProduct";
 
 const Products = () => {
-  const { register, handleSubmit } = useForm();
+  const { register, handleSubmit, reset } = useForm();
   const [products, setProducts] = useState([]);
+  const [totalProductCount, setTotalProductCount] = useState(0);
   const [searchProduct, setSearchProduct] = useState("");
+  const [currentPage, setCurrentPage] = useState(0);
+
+  const productPerPage = 10;
+  let totalPage;
+  if (searchProduct) {
+    totalPage = Math.ceil(products.length / productPerPage);
+  } else {
+    totalPage = Math.ceil(totalProductCount / productPerPage);
+  }
+  const pages = [...Array(totalPage).keys()];
 
   const loadProducts = async () => {
     const res = await fetch(
-      `${import.meta.env.VITE_API_URL}/products?search=${searchProduct}`
+      `${
+        import.meta.env.VITE_API_URL
+      }/products?search=${searchProduct}&currentPage=${currentPage}&productPerPage=${productPerPage}`
     );
     const data = await res.json();
     console.log(data);
     setProducts(data);
   };
 
+  const loadTotalProductsCount = async () => {
+    const res = await fetch(`${import.meta.env.VITE_API_URL}/totalProducts`);
+    const data = await res.json();
+    console.log("count", data);
+    setTotalProductCount(data.count);
+  };
+
   useEffect(() => {
     loadProducts();
-  }, [searchProduct]);
+    loadTotalProductsCount();
+  }, [searchProduct, currentPage]);
 
   const onSubmit = async (data) => {
     console.table(data);
     setSearchProduct(data.productName);
+    reset();
   };
-  console.log(searchProduct);
+  //   console.log(totalProductCount);
+
+  const handlePrev = () => {
+    if (currentPage > 0) {
+      setCurrentPage(currentPage - 1);
+    }
+  };
+
+  const handleNext = () => {
+    if (currentPage < pages.length - 1) {
+      setCurrentPage(currentPage + 1);
+    }
+  };
 
   return (
     <div className="container mx-auto">
@@ -59,8 +93,26 @@ const Products = () => {
           <SingleProduct key={product?._id} product={product} />
         ))}
       </div>
+      <div className={`join grid grid-cols-7 w-[300px] mx-auto my-[50px]`}>
+        <button onClick={handlePrev} className="join-item btn btn-square">
+          Prev
+        </button>
+        {pages.map((page, index) => (
+          <button
+            key={index}
+            className={`join-item btn ${
+              currentPage === page ? "btn-active" : ""
+            }`}
+            onClick={() => setCurrentPage(index)}
+          >
+            {index + 1}
+          </button>
+        ))}
+        <button onClick={handleNext} className="join-item btn btn-square">
+          Next
+        </button>
+      </div>
     </div>
   );
 };
-
 export default Products;
