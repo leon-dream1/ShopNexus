@@ -8,6 +8,7 @@ const Products = () => {
   const [totalProductCount, setTotalProductCount] = useState(0);
   const [searchProduct, setSearchProduct] = useState("");
   const [currentPage, setCurrentPage] = useState(0);
+  const [sortBy, setSortBy] = useState(null);
 
   const productPerPage = 10;
   let totalPage;
@@ -22,7 +23,7 @@ const Products = () => {
     const res = await fetch(
       `${
         import.meta.env.VITE_API_URL
-      }/products?search=${searchProduct}&currentPage=${currentPage}&productPerPage=${productPerPage}`
+      }/products?search=${searchProduct}&currentPage=${currentPage}&productPerPage=${productPerPage}&sort=${sortBy}`
     );
     const data = await res.json();
     console.log(data);
@@ -39,7 +40,7 @@ const Products = () => {
   useEffect(() => {
     loadProducts();
     loadTotalProductsCount();
-  }, [searchProduct, currentPage]);
+  }, [searchProduct, currentPage, sortBy]);
 
   const onSubmit = async (data) => {
     console.table(data);
@@ -60,26 +61,46 @@ const Products = () => {
     }
   };
 
+  console.log("sort", sortBy);
+
   return (
     <div className="container mx-auto">
       <h1 className="text-[25px] text-center font-playfair font-semibold text-slate-900 mt-[50px]">
         Choose Your Favorite Products : {products.length}
       </h1>
 
-      {/* Search by product name */}
-      <form onSubmit={handleSubmit(onSubmit)} className="mt-[30px]">
-        <input
-          type="text"
-          placeholder="Search Your Product"
-          className="input input-bordered w-3/4 md:w-full md:max-w-xs"
-          {...register("productName")}
-        />
-        <input
-          type="submit"
-          value="Search"
-          className="input input-bordered w-[100px] md:w-[150px] bg-black text-white text-[20px] font-semibold font-playfair cursor-pointer"
-        />
-      </form>
+      <div className="flex mt-[30px]">
+        {/* Search by product name */}
+        <form onSubmit={handleSubmit(onSubmit)}>
+          <input
+            type="text"
+            placeholder="Search Your Product"
+            className="input input-bordered w-3/4 md:w-full md:max-w-xs"
+            {...register("productName")}
+          />
+          <input
+            type="submit"
+            value="Search"
+            className="input input-bordered w-[100px] md:w-[150px] bg-black text-white text-[20px] font-semibold font-playfair cursor-pointer"
+          />
+        </form>
+
+        {/* Sort */}
+        <details className="dropdown">
+          <summary className="btn m-1">Sort Product</summary>
+          <ul className="menu dropdown-content bg-base-100 rounded-box z-[1] w-52 p-2 shadow">
+            <li>
+              <a onClick={() => setSortBy("asc")}>Low to High Price</a>
+            </li>
+            <li>
+              <a onClick={() => setSortBy("desc")}>High to Low Price</a>
+            </li>
+            <li>
+              <a onClick={() => setSortBy("newest")}>Newest Added Product</a>
+            </li>
+          </ul>
+        </details>
+      </div>
 
       {products.length === 0 && (
         <p className="text-center mt-[90px] font-playfair text-xl">
@@ -93,6 +114,8 @@ const Products = () => {
           <SingleProduct key={product?._id} product={product} />
         ))}
       </div>
+
+      {/* Pagination */}
       <div className={`join grid grid-cols-7 w-[300px] mx-auto my-[50px]`}>
         <button onClick={handlePrev} className="join-item btn btn-square">
           Prev

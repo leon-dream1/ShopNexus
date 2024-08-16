@@ -33,6 +33,13 @@ const SingleProduct = ({ product }) => {
             ${product?.price}
           </span>
         </p>
+        <p className="text-[18px] pb-10">
+          Created At:
+          <span className="pl-2 text-[18px] text-[#333333] font-open-sans font-bold">
+            {new Date(product?.creationDateTime).toDateString()} ||
+            {new Date(product?.creationDateTime).toLocaleTimeString()}
+          </span>
+        </p>
       </div>
     </div>
   );
