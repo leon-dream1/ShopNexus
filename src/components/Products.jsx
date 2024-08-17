@@ -12,6 +12,8 @@ const Products = () => {
   const [sortBy, setSortBy] = useState(null);
   const [selectedBrand, setSelectedBrand] = useState("All");
   const [selectedCategory, setSelectedCategory] = useState("All");
+  const [minPrice, setMinPrice] = useState(null);
+  const [maxPrice, setMaxPrice] = useState(null);
 
   const productPerPage = 10;
   let totalPage;
@@ -26,7 +28,7 @@ const Products = () => {
     const res = await fetch(
       `${
         import.meta.env.VITE_API_URL
-      }/products?search=${searchProduct}&currentPage=${currentPage}&productPerPage=${productPerPage}&sort=${sortBy}&selectedBrand=${selectedBrand}&selectedCategory=${selectedCategory}`
+      }/products?search=${searchProduct}&currentPage=${currentPage}&productPerPage=${productPerPage}&sort=${sortBy}&selectedBrand=${selectedBrand}&selectedCategory=${selectedCategory}&minPrice=${minPrice}&maxPrice=${maxPrice}`
     );
     const data = await res.json();
     console.log(data);
@@ -43,7 +45,15 @@ const Products = () => {
   useEffect(() => {
     loadProducts();
     loadTotalProductsCount();
-  }, [searchProduct, currentPage, sortBy, selectedBrand, selectedCategory]);
+  }, [
+    searchProduct,
+    currentPage,
+    sortBy,
+    selectedBrand,
+    selectedCategory,
+    minPrice,
+    maxPrice,
+  ]);
 
   const onSubmit = async (data) => {
     console.table(data);
@@ -123,6 +133,10 @@ const Products = () => {
           setSelectedBrand={setSelectedBrand}
           selectedCategory={selectedCategory}
           setSelectedCategory={setSelectedCategory}
+          minPrice={minPrice}
+          setMinPrice={setMinPrice}
+          maxPrice={maxPrice}
+          setMaxPrice={setMaxPrice}
         />
         {/* <div className="border shadow-lg p-[30px]">
           <form className="space-y-4" onSubmit={handleSubmit(onSubmit)}>

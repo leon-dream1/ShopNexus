@@ -7,6 +7,10 @@ const Filter = ({
   setSelectedBrand,
   setSelectedCategory,
   selectedCategory,
+  setMinPrice,
+  minPrice,
+  maxPrice,
+  setMaxPrice,
 }) => {
   const { register, handleSubmit, reset } = useForm();
 
@@ -22,7 +26,21 @@ const Filter = ({
     console.log("Selected Category:", category);
   };
 
-  console.table(selectedBrand);
+  const handleRange = (event) => {
+    const value = event.target.value;
+
+    if (value === "All") {
+      setMinPrice(null);
+      setMaxPrice(null);
+    } else {
+      const [min, max] = value.split(",");
+      console.log("min", min, max);
+      setMinPrice(parseInt(min));
+      setMaxPrice(parseInt(max));
+    }
+  };
+
+  console.table("p", minPrice, maxPrice);
 
   return (
     <div className="border shadow-lg p-[30px] space-y-4">
@@ -103,6 +121,19 @@ const Filter = ({
           <option value="Men's Boot">Mens Boot</option>
           <option value="Bag">Bag</option>
           <option value="Cap">Cap</option>
+        </select>
+      </div>
+      <div>
+        <p className="text-xl mb-2 font-playfair font-medium">
+          Choose Price Range
+        </p>
+        <select className="w-full p-2 text-xl border" onChange={handleRange}>
+          <option value="All">All</option>
+          <option value="0,100">$0 - $100</option>
+          <option value="101,200">$101 - $200</option>
+          <option value="201,300">$201 - $300</option>
+          <option value="301,400">$301 - $400</option>
+          <option value="401,500">$401 - $500</option>
         </select>
       </div>
     </div>
