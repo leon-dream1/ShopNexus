@@ -35,8 +35,8 @@ const Filter = ({
     } else {
       const [min, max] = value.split(",");
       console.log("min", min, max);
-      setMinPrice(parseInt(min));
-      setMaxPrice(parseInt(max));
+      setMinPrice(min);
+      setMaxPrice(max);
     }
   };
 
@@ -129,7 +129,7 @@ const Filter = ({
         </p>
         <select className="w-full p-2 text-xl border" onChange={handleRange}>
           <option value="All">All</option>
-          <option value="0,100">$0 - $100</option>
+          <option value="1,100">$1 - $100</option>
           <option value="101,200">$101 - $200</option>
           <option value="201,300">$201 - $300</option>
           <option value="301,400">$301 - $400</option>
