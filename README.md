@@ -1,5 +1,9 @@
 # Frontend - React with Vite
 
+# Name Of the Project: ShopNexus
+
+# Live Link: https://shopnexus-3946f.web.app/
+
 This is the frontend of the project, built using React with Vite. It provides a responsive and interactive user interface for the application.
 
 ## Project Setup
@@ -21,5 +25,5 @@ This is the frontend of the project, built using React with Vite. It provides a 
 
 ### Running the Project
    ```bash
-   npm run build
+   npm run dev
 
