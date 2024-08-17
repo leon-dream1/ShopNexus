@@ -18,3 +18,8 @@ This is the frontend of the project, built using React with Vite. It provides a 
 2. **Install dependencies:**
    ```bash
    npm install
+
+### Running the Project
+   ```bash
+   npm run build
+
