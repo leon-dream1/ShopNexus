@@ -55,7 +55,7 @@ const Navbar = () => {
             to={"/"}
             className="text-[16px] md:text-[35px] font-playfair font-bold cursor-pointer"
           >
-            ShopNexus
+            Shop<span className="italic">N</span>exus.
           </Link>
         </div>
         <div className="navbar-center hidden lg:flex">
