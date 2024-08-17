@@ -24,6 +24,8 @@ This is the frontend of the project, built using React with Vite. It provides a 
    npm install
 
 ### Running the Project
+
+1. **Start the development server:**
    ```bash
    npm run dev
 
